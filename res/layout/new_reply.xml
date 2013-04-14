@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" >
+   
+	<LinearLayout
+    	android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/background"
+    	android:orientation="vertical" >
+  
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:text="@string/newReply"
+        android:textSize="20sp" />
+
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/newReplyKeywords"
+        android:layout_marginTop="20sp" />
+    
+    <EditText
+        android:id="@+id/edtTextKeywords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="@string/newReplyKeywordsHint" >
+
+        <requestFocus />
+        
+   </EditText>
+        
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/newReplyText"
+        android:layout_marginTop="20sp" />
+    
+    <EditText
+        android:id="@+id/editTextNewReply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="@string/newReplyTextHint" ></EditText>
+    
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/expDateTimeText"
+        android:layout_marginTop="20sp" />
+    
+    <LinearLayout
+    	android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+    	android:orientation="vertical" >
+        
+        <DatePicker
+        	android:id="@+id/datePicker1"
+	        android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="10sp" />
+        <TimePicker 
+            android:id="@+id/timePicker1"
+	        android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="10sp" />
+        
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSubmitReply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:text="@string/submitReply" />
+
+    </LinearLayout>
+</ScrollView>

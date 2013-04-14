@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Auto Reply</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="intro">Auto Reply</string>
+    <string name="intro1">We help you reply</string>
+    <string name="viewPrevReplies">Previous Replies</string>
+    <string name="createNewReply">Create New Reply</string>
+    
+    <string name="newReply">Add a new Reply</string>
+    <string name="newReplyKeywords">Enter Keywords to be searched:</string>
+    <string name="newReplyKeywordsHint">Comma Separated Keywords</string>
+    <string name="newReplyText">Your Reply:</string>
+    <string name="newReplyTextHint">Reply you want to send</string>
+    <string name="expDateTimeText">Select Expiration Date and Time:</string>
+    <string name="submitReply">Add New Reply</string>
+    
+	<string name="prevRepliesActivity">PrevRepliesActivity</string>
+	<string name="newReplyActivity">NewReplyActivity</string>
+	
+	<string name="toastNoMessage">Please Provide a Message!</string>
+	<string name="toastDateTimeNotValid">Expiry Date/Time not correct!</string>
+	<string name="dialogNoKeyword">Proceed without any Keyword ?</string>
+	<string name="dialogNoKeywordYes">Yes Proceed</string>
+	<string name="dialogNoKeywordNo">Add Keyword</string>
+    
+</resources>
